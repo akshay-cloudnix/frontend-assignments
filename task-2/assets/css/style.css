@@ -1,0 +1,334 @@
+body {
+  background-color: #f2f5fa !important;
+  color: #0d2238 !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.2em;
+  margin-bottom: 0;
+}
+
+.row > * {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.cards-collapsed .col-lg-4 {
+  width: 25% !important;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.feedback-sec {
+  padding: 42px 0;
+}
+
+.fade-txt {
+  color: #909090;
+}
+
+.feedback-sec-label {
+  margin-bottom: 32px;
+}
+
+.feedback-sec-heading h2 {
+  margin-bottom: 20px;
+}
+
+.tab-wrap {
+  padding: 50px 0px;
+}
+
+/* Default vertical style (already present) */
+#v-pills-tab {
+  background: #e2f1ff;
+  height: 100vh;
+  border: 1px solid #cfeaff;
+  border-radius: 8px;
+  padding: 20px 12px;
+  width: 264px;
+  margin: 16px 0px;
+  position: sticky;
+  top: 32px;
+  margin-right: 32px !important;
+  transition: all 0.3s ease;
+}
+
+/* Override styles when in horizontal layout */
+#v-pills-tab.horizontal-tabs {
+  width: auto !important;
+  height: auto !important;
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  position: static !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+.feedback-sec-heading p {
+  margin-bottom: 0px !important;
+}
+
+button.nav-link {
+  text-align: left;
+  color: #2e3a59;
+}
+
+button.nav-link.active {
+  background: #fff !important;
+  color: #0091ff !important;
+  border-radius: 50px;
+  width: 175px;
+}
+
+div.tab-content {
+  width: 100%;
+}
+
+.card-heading h4 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.tab-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 16px 16px;
+}
+
+.card-stars {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1px;
+}
+
+span.b-color {
+  color: #0091ff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+span.tag-bar {
+  color: #f2f5fa;
+  font-size: 14px;
+}
+
+span.fade-tag {
+  background: #e7e9ed;
+  padding: 2px 5px;
+  font-size: 14px;
+  /* line-height: 1em; */
+  border-radius: 4px;
+  color: #8a949c;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.card-middle {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.card-middle p {
+  font-size: 14px;
+  color: #6f7684;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.author-details h3 {
+  font-size: 15px;
+  margin-bottom: 2px;
+  color: #343434;
+}
+
+.author-details p {
+  font-size: 13px;
+  color: #6f7684;
+  margin-bottom: 0px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #f2f5fa;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+button.outline-primary {
+  border: 1px solid #dddddd;
+  background: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: #0091ff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+button.outline-primary:hover {
+  background: #0091ff;
+  color: #ffffff;
+  border: 1px solid #0091ff;
+}
+
+button.filled-primary {
+  background: #0091ff;
+  color: #ffffff;
+  border: 1px solid #0091ff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 8px;
+}
+
+button.filled-primary:hover {
+  background: #0091ffb7;
+  color: #ffffff;
+  border: 1px solid #0091ffb7;
+}
+
+.btn-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: end;
+  gap: 8px;
+}
+
+.heading-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.approved-wrap {
+  position: relative;
+}
+
+.deny-wrap {
+  position: relative;
+}
+
+button.approved-btn {
+  border: none;
+  background: none;
+  color: #1aab4d;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  gap: 4px;
+  padding: 0.575rem 0.5rem 0.575rem 1rem;
+  display: none;
+}
+
+.button.approved-btn img,
+.button.deny-btn img {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+button.deny-btn {
+  border: none;
+  background: none;
+  color: #ef4151;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  gap: 4px;
+  padding: 0.575rem 0.5rem 0.575rem 1rem;
+  display: none;
+}
+
+.card-stars {
+  display: flex;
+  gap: 4px;
+}
+
+.card-stars svg {
+  cursor: pointer;
+  transition: fill 0.2s;
+}
+
+.btn-001 {
+  position: relative;
+}
+
+.summarized-box {
+  position: absolute;
+  right: 120px;
+  width: 250px;
+  bottom: 0;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 0;
+  transform: translateX(6%);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  pointer-events: none;
+  /* Prevent click when hidden */
+}
+
+.summarized-box.active {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.summarized-box p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.summarized-box span {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #ababab;
+  cursor: pointer;
+}
+
+.summarized-box span:hover {
+  color: red;
+}
+
+#v-pills-tab.horizontal-tabs button.nav-link.active {
+  width: auto;
+}

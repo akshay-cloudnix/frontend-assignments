@@ -1,0 +1,2974 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>cloudnix</title>
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <section class="feedback-sec">
+      <div class="container">
+        <div class="feedback-sec-label">
+          <h6>Setting> <span class="fade-txt">Feedback</span></h6>
+        </div>
+        <div class="heading-wrap">
+          <div class="feedback-sec-heading">
+            <h2>Feedback</h2>
+            <p>You will get user feedback on AI generated test cases</p>
+          </div>
+          <div class="btn-001">
+            <div class="summarized-box">
+              <a href=""><span>x</span></a>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Assumenda vitae, quae sint cumque perspiciatis explicabo
+                temporibus.
+              </p>
+            </div>
+            <button type="button" class="filled-primary">Summarize</button>
+          </div>
+        </div>
+        <div class="tab-wrap">
+          <!-- Toggle Button -->
+          <button
+            id="toggle-tab-direction"
+            class="btn btn-outline-primary mb-3"
+          >
+            Collapse
+          </button>
+          <div id="tab-container" class="d-flex flex-row gap-2">
+            <div
+              class="nav flex-column nav-pills me-3"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active"
+                id="v-pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-home"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-home"
+                aria-selected="true"
+              >
+                All
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-profile"
+                aria-selected="false"
+              >
+                TaskMaster
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-messages-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-messages"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+              >
+                FitTrack
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-settings-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-settings"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-settings"
+                aria-selected="false"
+              >
+                ShopEase
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-learn-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-learn"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-learn"
+                aria-selected="false"
+              >
+                LearnNow
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-travel-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-travel"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-travel"
+                aria-selected="false"
+              >
+                TravelGo
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-heath-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-heath"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-heath"
+                aria-selected="false"
+              >
+                HeathSync
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-event-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-event"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-event"
+                aria-selected="false"
+              >
+                EventMate
+              </button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="v-pills-home"
+                role="tabpanel"
+                aria-labelledby="v-pills-home-tab"
+              >
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+
+                        <div class="card-stars">
+                          <!-- Repeat stars with data-index -->
+                          <svg
+                            class="star"
+                            data-index="1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="3"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+
+                        <div class="card-stars">
+                          <!-- Repeat stars with data-index -->
+                          <svg
+                            class="star"
+                            data-index="1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="3"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+
+                        <div class="card-stars">
+                          <!-- Repeat stars with data-index -->
+                          <svg
+                            class="star"
+                            data-index="1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="3"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+
+                        <div class="card-stars">
+                          <!-- Repeat stars with data-index -->
+                          <svg
+                            class="star"
+                            data-index="1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="3"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+
+                        <div class="card-stars">
+                          <!-- Repeat stars with data-index -->
+                          <svg
+                            class="star"
+                            data-index="1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="3"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+
+                        <div class="card-stars">
+                          <!-- Repeat stars with data-index -->
+                          <svg
+                            class="star"
+                            data-index="1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="3"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+
+                        <div class="card-stars">
+                          <!-- Repeat stars with data-index -->
+                          <svg
+                            class="star"
+                            data-index="1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="3"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+
+                        <div class="card-stars">
+                          <!-- Repeat stars with data-index -->
+                          <svg
+                            class="star"
+                            data-index="1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="3"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+
+                        <div class="card-stars">
+                          <!-- Repeat stars with data-index -->
+                          <svg
+                            class="star"
+                            data-index="1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="3"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            class="star"
+                            data-index="5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="#d9d9d9"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-profile"
+                role="tabpanel"
+                aria-labelledby="v-pills-profile-tab"
+              >
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-messages"
+                role="tabpanel"
+                aria-labelledby="v-pills-messages-tab"
+              >
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-settings"
+                role="tabpanel"
+                aria-labelledby="v-pills-settings-tab"
+              >
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-learn"
+                role="tabpanel"
+                aria-labelledby="v-pills-learn-tab"
+              >
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-travel"
+                role="tabpanel"
+                aria-labelledby="v-pills-travel-tab"
+              >
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-heath"
+                role="tabpanel"
+                aria-labelledby="v-pills-heath-tab"
+              >
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-event"
+                role="tabpanel"
+                aria-labelledby="v-pills-event-tab"
+              >
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="tab-card">
+                      <div class="card-top">
+                        <div class="card-heading">
+                          <h4>TaskMaster</h4>
+                          <div class="card-tags">
+                            <span class="b-color">#TC01</span>
+                            <span class="tag-bar">|</span>
+                            <span class="fade-tag">UI/UX</span>
+                          </div>
+                        </div>
+                        <div class="card-stars">
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img
+                            src="./assets/img/Star 46.svg"
+                            alt="filled-star"
+                          />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                          <img src="./assets/img/Star 48.svg" alt="star" />
+                        </div>
+                      </div>
+                      <div class="card-middle">
+                        <p>
+                          The navigation bar is a bit confusing, especially when
+                          switching between different sections. The icons are
+                          not intuitive, and it takes a while to understand
+                          where each feature is located. It would be helpful to
+                          have labels or tooltips when hovering over the icons.
+                          A collapsible sidebar might also improve usability.
+                        </p>
+                      </div>
+                      <div class="card-bottom">
+                        <div class="author">
+                          <img src="./assets/img/user.png" alt="" />
+                          <div class="author-details">
+                            <h3>Steward leo</h3>
+                            <p>TaskMaster Testing</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="btn-wrap">
+                        <div class="deny-wrap">
+                          <button
+                            id="deny-p"
+                            type="button"
+                            class="outline-primary deny-p"
+                          >
+                            Deny
+                          </button>
+                          <button id="deny-g" class="deny-btn deny-g">
+                            <img
+                              src="./assets/img/Group 1000005657 (1).svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Deny
+                          </button>
+                        </div>
+                        <div class="approved-wrap">
+                          <button
+                            id="approved-p"
+                            type="button"
+                            class="filled-primary approved-p"
+                          >
+                            Approve
+                          </button>
+                          <button
+                            id="approved-g"
+                            class="approved-btn approved-g"
+                          >
+                            <img
+                              src="./assets/img/Group 1000005657.svg"
+                              alt=""
+                              style="
+                                width: 14px;
+                                height: 14px;
+                                margin-right: 4px;
+                              "
+                            />Approved
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".approved-p").click(function () {
+        var card = $(this).closest(".tab-card");
+        card.find(".approved-p").hide();
+        card.find(".deny-p").hide();
+        card.find(".approved-g").show();
+      });
+
+      $(".deny-p").click(function () {
+        var card = $(this).closest(".tab-card");
+        card.find(".deny-p").hide();
+        card.find(".approved-p").hide();
+        card.find(".deny-g").show();
+      });
+
+      const cards = document.querySelectorAll(".card-stars");
+
+      cards.forEach((card) => {
+        const stars = card.querySelectorAll(".star");
+        let currentRating = 0;
+
+        function updateStars(rating) {
+          stars.forEach((star, index) => {
+            if (index < rating) {
+              star.setAttribute("fill", "#fbbf24"); // gold
+            } else {
+              star.setAttribute("fill", "#d9d9d9"); // gray
+            }
+          });
+        }
+
+        stars.forEach((star, index) => {
+          star.addEventListener("mouseover", () => {
+            updateStars(index + 1);
+          });
+
+          star.addEventListener("mouseout", () => {
+            updateStars(currentRating);
+          });
+
+          star.addEventListener("click", () => {
+            currentRating = index + 1;
+            updateStars(currentRating);
+          });
+        });
+      });
+
+      const summarizeBtn = document.querySelector(".filled-primary");
+      const summarizedBox = document.querySelector(".summarized-box");
+      const closeBtn = summarizedBox.querySelector("span");
+
+      // Show the box with slide-in effect
+      summarizeBtn.addEventListener("click", () => {
+        summarizedBox.classList.add("active"); // Add animation class
+        summarizedBox.style.display = "block"; // Make it visible
+      });
+
+      // Hide the box with slide-out effect
+      closeBtn.addEventListener("click", (e) => {
+        e.preventDefault(); // prevent anchor jump
+        summarizedBox.classList.remove("active"); // Remove animation class
+        // Wait for animation to complete before hiding
+        setTimeout(() => {
+          summarizedBox.style.display = "none";
+        }, 300); // Match the transition duration in CSS
+      });
+
+      const toggleButton = document.getElementById("toggle-tab-direction");
+      const tabContainer = document.getElementById("tab-container");
+      const navTabs = document.querySelector("#v-pills-tab");
+
+      toggleButton.addEventListener("click", () => {
+        const isVertical =
+          navTabs.getAttribute("aria-orientation") === "vertical";
+
+        if (isVertical) {
+          // Switch to horizontal
+          navTabs.classList.remove("flex-column");
+          navTabs.classList.add("flex-row", "horizontal-tabs");
+          navTabs.setAttribute("aria-orientation", "horizontal");
+
+          tabContainer.classList.remove("flex-row");
+          tabContainer.classList.add("flex-column");
+
+          toggleButton.textContent = "Expand";
+        } else {
+          // Switch to vertical
+          navTabs.classList.remove("flex-row", "horizontal-tabs");
+          navTabs.classList.add("flex-column");
+          navTabs.setAttribute("aria-orientation", "vertical");
+
+          tabContainer.classList.remove("flex-column");
+          tabContainer.classList.add("flex-row");
+
+          toggleButton.textContent = "Collapse";
+        }
+      });
+
+      document
+        .getElementById("toggle-tab-direction")
+        .addEventListener("click", function () {
+          document
+            .getElementById("tab-container")
+            .classList.toggle("cards-collapsed");
+        });
+    </script>
+  </body>
+</html>
