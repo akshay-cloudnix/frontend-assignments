@@ -1,0 +1,13 @@
+body {
+  background-color: #d5e7e7;
+}
+
+.checked {
+  color: orange;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-height {
+    height: 290px;
+  }
+}

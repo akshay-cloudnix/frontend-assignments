@@ -1,0 +1,140 @@
+body {
+    font-family: "Roboto";
+    background: #F2F5FA;
+    font-size: 1rem;
+}
+
+.container {
+    margin-top: 1.875em;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 0em;
+}
+
+.bi-star-unrated {
+    color: #D9D9D9;
+}
+
+.custom-font,
+.card-text,
+.btn,
+.list-group-item,
+.cst-btn-group .dropdown-menu .dropdown-item {
+    font-size: 0.875em;
+}
+
+.para,
+.heading {
+    color: #0D2238;
+}
+
+.card-title,
+.user-details .name,
+.cst-btn-group .dropdown-menu .dropdown-item {
+    color: #343434;
+}
+
+.sidebar {
+    border: 1px solid #CFEAFF;
+    overflow-y: auto;
+    height: 100vh;
+    background: #E2F1FF;
+    position: sticky;
+    top: 0;
+    margin-bottom: 1.4em;
+}
+
+.btn-primary {
+    background-color: #0091FF;
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    .sidebar.list-group {
+        padding: 0.4em 0 !important;
+    }
+}
+
+.list-group-item {
+    border: none;
+    background: none;
+    color: #2E3A59;
+}
+
+.list-group-item.active {
+    background: #fff;
+    border-radius: 3.125em;
+    color: #0091FF;
+}
+
+.custom-text {
+    color: #0091FF;
+    text-decoration: none;
+}
+
+.custom-badge {
+    font-weight: 500;
+    color: #8A949C !important;
+    background: #E7E9ED !important;
+    font-size: 0.875em;
+}
+
+.card {
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-text {
+    height: 12em;
+    overflow-y: auto;
+    color: #6F7684;
+}
+
+.user-name .text,
+.approved-title,
+.user-details .text {
+    color: #6F7684;
+}
+
+.user-details .name {
+    font-size: 0.9375em;
+}
+
+.user-details .text,
+.approved {
+    font-size: 0.8125em;
+}
+
+.card-footer {
+    background: #fff;
+    border-top-color: #F2F5FA;
+}
+
+.cust-btn {
+    min-width: 4.9em;
+}
+
+.cust-btn.btn-light {
+    border: 1px solid #DDDDDD;
+    background-color: #FFFFFF;
+    color: #0091FF;
+}
+
+.cust-btn.btn-light:hover {
+    background-color: #F2F2F2;
+}
+
+.cst-btn-group .btn,
+.cst-btn-group .btn:active {
+    background-color: #FFFFFF;
+    border: 0;
+}
+
+.cst-btn-group .dropdown-menu .dropdown-item:hover {
+    color: #0091FF;
+}
+
+.cst-btn-group .dropdown-menu { 
+    min-width: 8.125em !important;
+}
