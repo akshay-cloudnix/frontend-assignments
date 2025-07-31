@@ -1,0 +1,88 @@
+body {
+  background-color: #f7f9fc;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.card {
+  border-radius: 0.75rem;
+  border: 0.0625rem solid #e0e0e0; 
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); 
+}
+
+.card img {
+  width: 1.875rem;
+  height: 1.875rem; 
+  object-fit: cover;
+}
+
+.flex-column {
+  background: #e2f1ff;
+  height: 52rem; 
+  top: 13.75rem;
+  left: 11.6875rem;
+  opacity: 1;
+  border-radius: 0.5rem;
+  border-width: 0.0625rem; 
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.sidebar {
+  background: #e2f1ff;
+  height: 100vh;
+  top: 13.75rem; 
+  left: 11.6875rem; 
+  opacity: 1;
+  border-radius: 0.5rem;
+  border-width: 0.0625rem;
+}
+
+.sidebar .all-tab {
+  background-color: #ffffff;
+  color: #0d6efd;
+  font-weight: 600;
+  padding: 0.625rem 0.9375rem; 
+  border-radius: 3.125rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 0 0 0.0625rem #d1d9e6;
+  margin-top: 1.25rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 0.625rem; 
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 0.625rem 0.9375rem; 
+  color: #333;
+  text-decoration: none;
+  border-radius: 0.5rem; 
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.sidebar ul li a.active {
+  background-color: #ffffff;
+  color: #0d6efd;
+  box-shadow: 0 0 0 0.0625rem #d1d9e6;
+}
+
+
+.approval-status {
+  padding: 0.375rem 0;
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+}
