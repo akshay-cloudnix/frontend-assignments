@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css" />
+  
+</head>
+<body>
+  <!-- Header -->
+  <div class="header d-flex justify-content-between align-items-center">
+    <span class="header_p" >
+        <p style="color:#0D2238;">Setting></p>
+        <p style="color:#909090;margin: 0px 0px 0px 6px;">Feedback</p>
+    </span>
+   
+       <h2 class="header_h">Feedback</h2>
+       <p class="text-muted " style=" width: 517px;position: absolute;height: 29px;opacity: 1;top: 102.12px;left: 60px;">You will get user feedback on AI generated test cases</p>
+       <button class="btn btn-warning" style="width: 126px;position: absolute;height: 42px;top: 80px;left: 1169px;opacity: 1;" >Summarize</button>
+  </div>
+
+  <!-- Main Section -->
+  <div class="main-section">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="list-group" style="margin: 10px 0px 0px 8px;" >
+        <div class="list-group-item" style="width: 174.6484375px;height: 41.58203125;opacity: 1;border-radius: 50px; background-color:#FFFFFF;">All</div>
+        <div class="list-group-item">TaskMaster</div>
+        <div class="list-group-item">FitTrack</div>
+        <div class="list-group-item">ShopEase</div>
+        <div class="list-group-item">LoanNow</div>
+        <div class="list-group-item">TravelGo</div>
+        <div class="list-group-item">HealthSync</div>
+        <div class="list-group-item">EventMate</div>
+      </div>
+    </div>
+    <!-- Content -->
+    <div class="main-content">
+      <div class="row" id="feedback-list">
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+body {
+  width: auto;
+  background-color: #F2F5FA;
+  margin: 0;
+}
+
+.sidebar {
+    position: absolute;
+    width: 219px;
+    height: 832px;
+    opacity: 1;
+      top: 155px;
+    left: 61px;
+    border-radius: 8px;
+    border-width: 1px;
+    background: #E2F1FF;
+    border: 1px solid #CFEAFF /* border-color: #CFEAFF; */;
+}
+
+
+.sidebar h6 {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.sidebar .list-group-item {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.sidebar .list-group-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.header {
+  padding: 20px;
+  background-color: #F2F5FA;
+  /* border-bottom: 1px solid #ddd; */
+}
+
+.main-section {
+  flex: 1;
+}
+
+.main-content {
+    position: absolute;
+    top: 155px;
+    left: 304px;
+    width: 994px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.status-note {
+  font-size: 13px;
+  color: #000;
+  flex-shrink: 0;
+}
+
+.card .tags span.First_tag {
+  
+width: 43;
+height: 16;
+/* angle: 0 deg; */
+opacity: 1;
+font-family: Roboto;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0px;
+color: #0091FF;
+
+}
+.card .tags span.second_tag {
+margin: 0px 0px 0px 6px;
+background: #8A949C;
+width: 37;
+height: 16;
+/* angle: 0 deg; */
+opacity: 1;
+font-family: Roboto;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0px;
+
+
+}
+.Name {
+width: 80px;
+height: 18px;
+/* angle: 0 deg; */
+opacity: 1;
+
+font-family: Roboto;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 15px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0px;
+
+color: #343434;
+
+}
+.Title{
+  width: 115px;
+height: 15px;
+/* angle: 0 deg; */
+opacity: 1;
+font-family: Roboto;
+font-weight: 500;
+font-style: Medium;
+font-size: 13px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0px;
+color: #6F7684;
+
+}
+.tag-gap {
+  margin-right: 6px;
+}
+.text{
+  font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+/* leading-trim: NONE; */
+line-height: 20px;
+letter-spacing: 0px;
+color: #6F7684;
+
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px; /* space between buttons */
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 10px 24px;
+  border-radius: 7px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  min-width: 92px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Deny button */
+.deny-btn {
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  color: #0091FF;
+}
+
+/* Approve button */
+.approve-btn {
+  background-color: #0091FF;
+  border: 1px solid #0091FF;
+  color: #FFFFFF;
+
+}
+.Approved_text{
+margin: -14px 0px 0px 0px;
+ width: 81px;
+height: 15px;
+/* angle: 0 deg; */
+opacity: 1;
+
+font-family: Roboto;
+font-weight: 400;
+font-style: Italic;
+font-size: 13px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0px;
+
+color: #6F7684;
+
+}
+
+.dropdown_approved_text {
+
+font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0px;
+color: #0091FF;
+
+}
+.dropdown_dennied_text{
+  width: 72.32258605957031px;
+height: 17.161291122436523px;
+/* angle: 0 deg; */
+opacity: 1;
+top: 611px;
+left: 1158px;
+font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0px;
+color: #000000;
+
+}
+.header_p{
+   display: flex;
+    width: 110px;
+    height: 15px;
+    opacity: 1;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin: 9px 0px 0px 39px;
+}
+.header_h{
+    width: 183px;
+    position: absolute;
+    height: 28px;
+    opacity: 1;
+    top: 50px;
+    left: 58px;
+}
