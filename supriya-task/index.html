@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback Panel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="assets/script.js"></script>
+  <link rel="stylesheet" href="assets/style.css"> 
+
+</head>
+<body class="feedback-info">
+  <section>
+    <div class="container-fluid">
+     <nav aria-label="breadcrumb" class="breadcrumb">
+      <ul>
+        <li><a href="/">Setting</a></li>
+        <li> &gt; </li>
+        <li><a href="/feedback" class="current">Feedback</a></li>
+        
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="top-title col-lg-10">
+        <h1>Feedback</h1>
+        <p class="content">You will get user feedback on AI generated test cases</p>
+      </div>
+
+      <div class="col-lg-2">
+        <button type="button" class="btn summarize">Summarize</button>
+      </div>
+    </div>
+    <div class="row info">
+      <!-- Left Sidebar Tabs -->
+      <div class="col-md-2 left-tab">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <button class="nav-link active" id="tab1-tab" data-bs-toggle="pill" data-bs-target="#tab1" type="button">All</button>
+          <button class="nav-link" id="tab2-tab" data-bs-toggle="pill" data-bs-target="#tab2" type="button">TaskMaster</button>
+          <button class="nav-link" id="tab3-tab" data-bs-toggle="pill" data-bs-target="#tab3" type="button">FitTrack</button>
+          <button class="nav-link" id="tab4-tab" data-bs-toggle="pill" data-bs-target="#tab4" type="button">ShopEase</button>
+          <button class="nav-link" id="tab5-tab" data-bs-toggle="pill" data-bs-target="#tab5" type="button">LearnNow</button>
+          <button class="nav-link" id="tab6-tab" data-bs-toggle="pill" data-bs-target="#tab6" type="button">TravelGo</button>
+          <button class="nav-link" id="tab7-tab" data-bs-toggle="pill" data-bs-target="#tab7" type="button">HeathSync</button>
+          <button class="nav-link" id="tab8-tab" data-bs-toggle="pill" data-bs-target="#tab8" type="button">EventMate</button>
+          
+        </div>
+      </div>
+
+      <!-- Right Tab Content -->
+      <div class="col-md-10">
+        <div class="tab-content" id="v-pills-tabContent">
+          <!-- Tab 1 -->
+          <div class="tab-pane fade show active" id="tab1" role="tabpanel">
+            <!-------1st row-------->
+            
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+             
+             <!-- Card 1 -->
+             <div class="col">
+              <div class="card">
+                <div class="d-flex justify-content-between align-items-center card-cont">
+                  <div class="title">
+                    <h5 class="mb-6">TaskMaster</h5>
+                    <h6>#TC01 <span class="badge">UI/UX</span></h6>
+                  </div>
+                  <div class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+                <div class="d-flex align-items-center user-data">
+                  <img src="assets/image/user.jpg" class="user" alt="user">
+                  <div class="data">
+                    <h6>Steward leo</h6>
+                    <span> TaskMaster Testing </span>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center footer-data">
+                  <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+                  <div class="approval-buttons d-flex align-items-center gap-2">
+                    <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                    <div class="approval-area position-relative">
+                      <button class="btn btn-sm approve">Approve</button>
+                      <div class="dropdown-actions">
+                        <button onclick="handleApprove(this)">Approved</button>
+                        <button onclick="handleDeny(this)">Deny</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col">
+              <div class="card">
+                <div class="d-flex justify-content-between align-items-center card-cont">
+                  <div class="title">
+                    <h5 class="mb-6">TaskMaster</h5>
+                    <h6>#TC01 <span class="badge">UI/UX</span></h6>
+                  </div>
+                  <div class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+                <div class="d-flex align-items-center user-data">
+                  <img src="assets/image/user.jpg" class="user" alt="user">
+                  <div class="data">
+                    <h6>Steward leo</h6>
+                    <span> TaskMaster Testing </span>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center footer-data">
+                  <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+                  <div class="approval-buttons d-flex align-items-center gap-2">
+                    <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                    <div class="approval-area position-relative">
+                      <button class="btn btn-sm approve">Approve</button>
+                      <div class="dropdown-actions">
+                        <button onclick="handleApprove(this)">Approved</button>
+                        <button onclick="handleDeny(this)">Deny</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col">
+              <div class="card">
+                <div class="d-flex justify-content-between align-items-center card-cont">
+                  <div class="title">
+                    <h5 class="mb-6">FitTrack</h5>
+                    <h6>#TC01 <span class="badge">UI/UX</span></h6>
+                  </div>
+                  <div class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+                <div class="d-flex align-items-center user-data">
+                  <img src="assets/image/user.jpg" class="user" alt="user">
+                  <div class="data">
+                    <h6>Steward leo</h6>
+                    <span> TaskMaster Testing </span>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center footer-data">
+                  <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+                  <div class="approval-buttons d-flex align-items-center gap-2">
+                    <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                    <div class="approval-area position-relative">
+                      <button class="btn btn-sm approve">Approve</button>
+                      <div class="dropdown-actions">
+                        <button onclick="handleApprove(this)">Approved</button>
+                        <button onclick="handleDeny(this)">Deny</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="col">
+              <div class="card">
+                <div class="d-flex justify-content-between align-items-center card-cont">
+                  <div class="title">
+                    <h5 class="mb-6">FitTrack</h5>
+                    <h6>#TC01 <span class="badge">UI/UX</span></h6>
+                  </div>
+                  <div class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+                <div class="d-flex align-items-center user-data">
+                  <img src="assets/image/user.jpg" class="user" alt="user">
+                  <div class="data">
+                    <h6>Steward leo</h6>
+                    <span> TaskMaster Testing </span>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center footer-data">
+                  <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+                  <div class="approval-buttons d-flex align-items-center gap-2">
+                    <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                    <div class="approval-area position-relative">
+                      <button class="btn btn-sm approve">Approve</button>
+                      <div class="dropdown-actions">
+                        <button onclick="handleApprove(this)">Approved</button>
+                        <button onclick="handleDeny(this)">Deny</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col">
+              <div class="card">
+                <div class="d-flex justify-content-between align-items-center card-cont">
+                  <div class="title">
+                    <h5 class="mb-6">ShopEase</h5>
+                    <h6>#TC01 <span class="badge">UI/UX</span></h6>
+                  </div>
+                  <div class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+                <div class="d-flex align-items-center user-data">
+                  <img src="assets/image/user.jpg" class="user" alt="user">
+                  <div class="data">
+                    <h6>Steward leo</h6>
+                    <span> TaskMaster Testing </span>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center footer-data">
+                  <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+                  <div class="approval-buttons d-flex align-items-center gap-2">
+                    <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                    <div class="approval-area position-relative">
+                      <button class="btn btn-sm approve">Approve</button>
+                      <div class="dropdown-actions">
+                        <button onclick="handleApprove(this)">Approved</button>
+                        <button onclick="handleDeny(this)">Deny</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col">
+              <div class="card">
+                <div class="d-flex justify-content-between align-items-center card-cont">
+                  <div class="title">
+                    <h5 class="mb-6">ShopEase</h5>
+                    <h6>#TC01 <span class="badge">UI/UX</span></h6>
+                  </div>
+                  <div class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+                <div class="d-flex align-items-center user-data">
+                  <img src="assets/image/user.jpg" class="user" alt="user">
+                  <div class="data">
+                    <h6>Steward leo</h6>
+                    <span> TaskMaster Testing </span>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center footer-data">
+                  <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+                  <div class="approval-buttons d-flex align-items-center gap-2">
+                    <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                    <div class="approval-area position-relative">
+                      <button class="btn btn-sm approve">Approve</button>
+                      <div class="dropdown-actions">
+                        <button onclick="handleApprove(this)">Approved</button>
+                        <button onclick="handleDeny(this)">Deny</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="col">
+              <div class="card">
+                <div class="d-flex justify-content-between align-items-center card-cont">
+                  <div class="title">
+                    <h5 class="mb-6">TaskMaster</h5>
+                    <h6>#TC01 <span class="badge">UI/UX</span></h6>
+                  </div>
+                  <div class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+                <div class="d-flex align-items-center user-data">
+                  <img src="assets/image/user.jpg" class="user" alt="user">
+                  <div class="data">
+                    <h6>Steward leo</h6>
+                    <span> TaskMaster Testing </span>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center footer-data">
+                  <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+                  <div class="approval-buttons d-flex align-items-center gap-2">
+                    <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                    <div class="approval-area position-relative">
+                      <button class="btn btn-sm approve">Approve</button>
+                      <div class="dropdown-actions">
+                        <button onclick="handleApprove(this)">Approved</button>
+                        <button onclick="handleDeny(this)">Deny</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="col">
+              <div class="card">
+                <div class="d-flex justify-content-between align-items-center card-cont">
+                  <div class="title">
+                    <h5 class="mb-6">TaskMaster</h5>
+                    <h6>#TC01 <span class="badge">UI/UX</span></h6>
+                  </div>
+                  <div class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+                <div class="d-flex align-items-center user-data">
+                  <img src="assets/image/user.jpg" class="user" alt="user">
+                  <div class="data">
+                    <h6>Steward leo</h6>
+                    <span> TaskMaster Testing </span>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center footer-data">
+                  <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+                  <div class="approval-buttons d-flex align-items-center gap-2">
+                    <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                    <div class="approval-area position-relative">
+                      <button class="btn btn-sm approve">Approve</button>
+                      <div class="dropdown-actions">
+                        <button onclick="handleApprove(this)">Approved</button>
+                        <button onclick="handleDeny(this)">Deny</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 9 -->
+            <div class="col">
+              <div class="card">
+                <div class="d-flex justify-content-between align-items-center card-cont">
+                  <div class="title">
+                    <h5 class="mb-6">TaskMaster</h5>
+                    <h6>#TC01 <span class="badge">UI/UX</span></h6>
+                  </div>
+                  <div class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+                <div class="d-flex align-items-center user-data">
+                  <img src="assets/image/user.jpg" class="user" alt="user">
+                  <div class="data">
+                    <h6>Steward leo</h6>
+                    <span> TaskMaster Testing </span>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center footer-data">
+                  <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+                  <div class="approval-buttons d-flex align-items-center gap-2">
+                    <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                    <div class="approval-area position-relative">
+                      <button class="btn btn-sm approve">Approve</button>
+                      <div class="dropdown-actions">
+                        <button onclick="handleApprove(this)">Approved</button>
+                        <button onclick="handleDeny(this)">Deny</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        
+        <!-- Tab 2 -->
+        <div class="tab-pane fade" id="tab2" role="tabpanel">
+          <!-------2nd row-------->
+          
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+           
+           <!-- Card 1 -->
+           <div class="col">
+            <div class="card">
+              <div class="d-flex justify-content-between align-items-center card-cont">
+                <div class="title">
+                  <h5 class="mb-6">TaskMaster</h5>
+                  <h6>#TC01 <span class="badge">UI/UX</span></h6>
+                </div>
+                <div class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+              <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+              <div class="d-flex align-items-center user-data">
+                <img src="assets/image/user.jpg" class="user" alt="user">
+                <div class="data">
+                  <h6>Steward leo</h6>
+                  <span> TaskMaster Testing </span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center footer-data">
+                <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+                <div class="approval-buttons d-flex align-items-center gap-2">
+                  <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                  <div class="approval-area position-relative">
+                    <button class="btn btn-sm approve">Approve</button>
+                    <div class="dropdown-actions">
+                      <button onclick="handleApprove(this)">Approved</button>
+                      <button onclick="handleDeny(this)">Deny</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card">
+              <div class="d-flex justify-content-between align-items-center card-cont">
+                <div class="title">
+                  <h5 class="mb-6">TaskMaster</h5>
+                  <h6>#TC01 <span class="badge">UI/UX</span></h6>
+                </div>
+                <div class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+              <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+              <div class="d-flex align-items-center user-data">
+                <img src="assets/image/user.jpg" class="user" alt="user">
+                <div class="data">
+                  <h6>Steward leo</h6>
+                  <span> TaskMaster Testing </span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center footer-data">
+                <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+                <div class="approval-buttons d-flex align-items-center gap-2">
+                  <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                  <div class="approval-area position-relative">
+                    <button class="btn btn-sm approve">Approve</button>
+                    <div class="dropdown-actions">
+                      <button onclick="handleApprove(this)">Approved</button>
+                      <button onclick="handleDeny(this)">Deny</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card">
+              <div class="d-flex justify-content-between align-items-center card-cont">
+                <div class="title">
+                  <h5 class="mb-6">TaskMaster</h5>
+                  <h6>#TC01 <span class="badge">UI/UX</span></h6>
+                </div>
+                <div class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+              <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+              <div class="d-flex align-items-center user-data">
+                <img src="assets/image/user.jpg" class="user" alt="user">
+                <div class="data">
+                  <h6>Steward leo</h6>
+                  <span> TaskMaster Testing </span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center footer-data">
+                <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+                <div class="approval-buttons d-flex align-items-center gap-2">
+                  <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                  <div class="approval-area position-relative">
+                    <button class="btn btn-sm approve">Approve</button>
+                    <div class="dropdown-actions">
+                      <button onclick="handleApprove(this)">Approved</button>
+                      <button onclick="handleDeny(this)">Deny</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+
+      <!-- Tab 3 -->
+      <div class="tab-pane fade" id="tab3" role="tabpanel">
+        <!-------3rd row-------->
+        
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+         
+         <!-- Card 1 -->
+         <div class="col">
+          <div class="card">
+            <div class="d-flex justify-content-between align-items-center card-cont">
+              <div class="title">
+                <h5 class="mb-6">FitTrack</h5>
+                <h6>#TC01 <span class="badge">UI/UX</span></h6>
+              </div>
+              <div class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+            <div class="d-flex align-items-center user-data">
+              <img src="assets/image/user.jpg" class="user" alt="user">
+              <div class="data">
+                <h6>Steward leo</h6>
+                <span> TaskMaster Testing </span>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center footer-data">
+              <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+              <div class="approval-buttons d-flex align-items-center gap-2">
+                <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                <div class="approval-area position-relative">
+                  <button class="btn btn-sm approve">Approve</button>
+                  <div class="dropdown-actions">
+                    <button onclick="handleApprove(this)">Approved</button>
+                    <button onclick="handleDeny(this)">Deny</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col">
+          <div class="card">
+            <div class="d-flex justify-content-between align-items-center card-cont">
+              <div class="title">
+                <h5 class="mb-6">FitTrack</h5>
+                <h6>#TC01 <span class="badge">UI/UX</span></h6>
+              </div>
+              <div class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+            <div class="d-flex align-items-center user-data">
+              <img src="assets/image/user.jpg" class="user" alt="user">
+              <div class="data">
+                <h6>Steward leo</h6>
+                <span> TaskMaster Testing </span>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center footer-data">
+              <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+              <div class="approval-buttons d-flex align-items-center gap-2">
+                <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                <div class="approval-area position-relative">
+                  <button class="btn btn-sm approve">Approve</button>
+                  <div class="dropdown-actions">
+                    <button onclick="handleApprove(this)">Approved</button>
+                    <button onclick="handleDeny(this)">Deny</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col">
+          <div class="card">
+            <div class="d-flex justify-content-between align-items-center card-cont">
+              <div class="title">
+                <h5 class="mb-6">FitTrack</h5>
+                <h6>#TC01 <span class="badge">UI/UX</span></h6>
+              </div>
+              <div class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+            <div class="d-flex align-items-center user-data">
+              <img src="assets/image/user.jpg" class="user" alt="user">
+              <div class="data">
+                <h6>Steward leo</h6>
+                <span> TaskMaster Testing </span>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center footer-data">
+              <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+              <div class="approval-buttons d-flex align-items-center gap-2">
+                <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                <div class="approval-area position-relative">
+                  <button class="btn btn-sm approve">Approve</button>
+                  <div class="dropdown-actions">
+                    <button onclick="handleApprove(this)">Approved</button>
+                    <button onclick="handleDeny(this)">Deny</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 4 -->
+        <div class="col">
+          <div class="card">
+            <div class="d-flex justify-content-between align-items-center card-cont">
+              <div class="title">
+                <h5 class="mb-6">FitTrack</h5>
+                <h6>#TC01 <span class="badge">UI/UX</span></h6>
+              </div>
+              <div class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+            <div class="d-flex align-items-center user-data">
+              <img src="assets/image/user.jpg" class="user" alt="user">
+              <div class="data">
+                <h6>Steward leo</h6>
+                <span> TaskMaster Testing </span>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center footer-data">
+              <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+              <div class="approval-buttons d-flex align-items-center gap-2">
+                <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                <div class="approval-area position-relative">
+                  <button class="btn btn-sm approve">Approve</button>
+                  <div class="dropdown-actions">
+                    <button onclick="handleApprove(this)">Approved</button>
+                    <button onclick="handleDeny(this)">Deny</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col">
+          <div class="card">
+            <div class="d-flex justify-content-between align-items-center card-cont">
+              <div class="title">
+                <h5 class="mb-6">FitTrack</h5>
+                <h6>#TC01 <span class="badge">UI/UX</span></h6>
+              </div>
+              <div class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+            <div class="d-flex align-items-center user-data">
+              <img src="assets/image/user.jpg" class="user" alt="user">
+              <div class="data">
+                <h6>Steward leo</h6>
+                <span> TaskMaster Testing </span>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center footer-data">
+              <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+              <div class="approval-buttons d-flex align-items-center gap-2">
+                <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+                <div class="approval-area position-relative">
+                  <button class="btn btn-sm approve">Approve</button>
+                  <div class="dropdown-actions">
+                    <button onclick="handleApprove(this)">Approved</button>
+                    <button onclick="handleDeny(this)">Deny</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+
+    </div>
+
+
+    <!-- Tab 4 -->
+    <div class="tab-pane fade" id="tab4" role="tabpanel">
+      <!-------4nd row-------->
+      
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+       
+       <!-- Card 1 -->
+       <div class="col">
+        <div class="card">
+          <div class="d-flex justify-content-between align-items-center card-cont">
+            <div class="title">
+              <h5 class="mb-6">ShopEase</h5>
+              <h6>#TC01 <span class="badge">UI/UX</span></h6>
+            </div>
+            <div class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+          <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+          <div class="d-flex align-items-center user-data">
+            <img src="assets/image/user.jpg" class="user" alt="user">
+            <div class="data">
+              <h6>Steward leo</h6>
+              <span> TaskMaster Testing </span>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center footer-data">
+            <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+            <div class="approval-buttons d-flex align-items-center gap-2">
+              <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+              <div class="approval-area position-relative">
+                <button class="btn btn-sm approve">Approve</button>
+                <div class="dropdown-actions">
+                  <button onclick="handleApprove(this)">Approved</button>
+                  <button onclick="handleDeny(this)">Deny</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+
+
+  <!-- Tab 5 -->
+  <div class="tab-pane fade" id="tab5" role="tabpanel">
+    <!-------5th row-------->
+    
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+     
+     <!-- Card 1 -->
+     <div class="col">
+      <div class="card">
+        <div class="d-flex justify-content-between align-items-center card-cont">
+          <div class="title">
+            <h5 class="mb-6">LearnNow</h5>
+            <h6>#TC01 <span class="badge">UI/UX</span></h6>
+          </div>
+          <div class="text-warning">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+        </div>
+        <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+        <div class="d-flex align-items-center user-data">
+          <img src="assets/image/user.jpg" class="user" alt="user">
+          <div class="data">
+            <h6>Steward leo</h6>
+            <span> TaskMaster Testing </span>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center footer-data">
+          <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+          <div class="approval-buttons d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+            <div class="approval-area position-relative">
+              <button class="btn btn-sm approve">Approve</button>
+              <div class="dropdown-actions">
+                <button onclick="handleApprove(this)">Approved</button>
+                <button onclick="handleDeny(this)">Deny</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col">
+      <div class="card">
+        <div class="d-flex justify-content-between align-items-center card-cont">
+          <div class="title">
+            <h5 class="mb-6">LearnNow</h5>
+            <h6>#TC01 <span class="badge">UI/UX</span></h6>
+          </div>
+          <div class="text-warning">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+        </div>
+        <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+        <div class="d-flex align-items-center user-data">
+          <img src="assets/image/user.jpg" class="user" alt="user">
+          <div class="data">
+            <h6>Steward leo</h6>
+            <span> TaskMaster Testing </span>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center footer-data">
+          <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+          <div class="approval-buttons d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+            <div class="approval-area position-relative">
+              <button class="btn btn-sm approve">Approve</button>
+              <div class="dropdown-actions">
+                <button onclick="handleApprove(this)">Approved</button>
+                <button onclick="handleDeny(this)">Deny</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+
+</div>
+
+
+<!-- Tab 6 -->
+<div class="tab-pane fade" id="tab6" role="tabpanel">
+  <!-------6th row-------->
+  
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+   
+   <!-- Card 1 -->
+   <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">TravelGo</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">TravelGo</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">TravelGo</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Card 4 -->
+  <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">TravelGo</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">TravelGo</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+
+</div>
+
+<!-- Tab 7 -->
+<div class="tab-pane fade" id="tab7" role="tabpanel">
+  <!-------7th row-------->
+  
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+   
+   <!-- Card 1 -->
+   <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">HeathSync</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">HeathSync</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">HeathSync</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Card 4 -->
+  <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">HeathSync</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">HeathSync</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+
+</div>
+<!-- Tab 8 -->
+<div class="tab-pane fade" id="tab8" role="tabpanel">
+  <!-------8th row-------->
+  
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+   
+   <!-- Card 1 -->
+   <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">EventMate</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">EventMate</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">EventMate</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Card 4 -->
+  <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">EventMate</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="col">
+    <div class="card">
+      <div class="d-flex justify-content-between align-items-center card-cont">
+        <div class="title">
+          <h5 class="mb-6">EventMate</h5>
+          <h6>#TC01 <span class="badge">UI/UX</span></h6>
+        </div>
+        <div class="text-warning">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </div>
+      </div>
+      <p>The navigation bar is a bit confusing, especially when switching between different sections. The icons are not intuitive, and it takes a while to understand where each feature is located. It would be helpful to have labels or tooltips when hovering over the icons. A collapsible sidebar might also improve usability.</p>
+      <div class="d-flex align-items-center user-data">
+        <img src="assets/image/user.jpg" class="user" alt="user">
+        <div class="data">
+          <h6>Steward leo</h6>
+          <span> TaskMaster Testing </span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center footer-data">
+        <div class="approval-status d-flex align-items-center flex-grow-1"></div>
+        <div class="approval-buttons d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-danger deny" onclick="handleDeny(this)">Deny</button>
+          <div class="approval-area position-relative">
+            <button class="btn btn-sm approve">Approve</button>
+            <div class="dropdown-actions">
+              <button onclick="handleApprove(this)">Approved</button>
+              <button onclick="handleDeny(this)">Deny</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+
+</div>
+
+
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+</section>
+
+
+</body>
+</html>
