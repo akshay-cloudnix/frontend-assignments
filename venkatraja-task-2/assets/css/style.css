@@ -88,7 +88,20 @@ font-family: "Roboto", sans-serif;
       gap: 20px;
       height:100%;
     }
-
+.dashboard__main.horizontal{
+    flex-wrap: wrap;
+}
+.horizontal.dashboard__sidebar{
+    width:100%;
+}
+.horizontal.sidebar{
+    width:100%;
+}
+.horizontal.sidebar ul{
+    display: flex;
+    width: 100%;
+}
+    
     .sidebar {
       width: 200px;
       height:100%;
@@ -282,7 +295,10 @@ font-family: "Roboto", sans-serif;
     background-color:#E7E9ED;
     color:#a3a4a5;
 }
-
+.star{
+    cursor: pointer;
+    transition: 0.3s;
+}
 .star-rating {
     display: flex;
     gap: 2px;

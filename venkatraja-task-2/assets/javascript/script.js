@@ -2,16 +2,47 @@
     document.addEventListener('DOMContentLoaded', function() {
         initializeDropdowns();
         initializeButtons();
-        initializeSidebar();
+  
         initializeResponsiveBehavior();
     });
+
+    const stars = document.querySelectorAll('.star');
+    let selectedRating = 0;
+     stars.forEach((star,index)=>{
+        star.addEventListener('click',()=>{
+            selectedRating=index+1;
+            updateStars();
+            console.log("selected ratings",selectedRating);
+        });
+     });
+
+     function updateStars(){
+        stars.forEach((star,index)=>{
+            star.setAttribute('fill', index < selectedRating ?  '#fbbf24' : '#d1d5db')
+        });
+     }
+
+
+      document.getElementById("toggleButton").addEventListener("click", function () {
+  document.querySelector(".dashboard__main").classList.toggle("horizontal");
+});
+
+
+
+
+
+
+
+
+
+
     
     function initializeDropdowns() {
         const dropdownToggles = document.querySelectorAll('.status-dropdown__toggle');
         
         dropdownToggles.forEach(toggle => {
             toggle.addEventListener('click', function(e) {
-                e.stopPropagation();a
+                e.stopPropagation();
                 const dropdown = this.closest('.status-dropdown');
                 const menu = dropdown.querySelector('.status-dropdown__menu');
                 

@@ -27,6 +27,40 @@
             </button>
         
        </header>
+       <button id="toggleButton">Toggle Layout</button>
+      
+       <style>
+        .dashboard__main.horizontal {
+            flex-wrap: wrap;
+        }
+        .horizontal .dashboard__sidebar {
+            width: 100%;
+        }
+        .horizontal .sidebar {
+            width: 100%;
+        }
+        .horizontal .sidebar ul {
+            display: flex;
+            width: 100%;
+        }
+        button#toggleButton {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: baseline;
+    margin-top: 67px;
+    gap: 4px;
+    transition: background-color 0.2s ease;
+    max-width: 150px;
+
+}
+       </style>
        <div class="dashboard__main">
             <div class="dashboard__sidebar">
                  <div class="main-content">
@@ -60,12 +94,12 @@
                                 </div>
                             </div>
                             <div class="feedback-card__rating">
-                               <svg width="91" height="19" viewBox="0 0 91 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M9.02864 0L11.0557 6.23864L17.6154 6.23864L12.3085 10.0943L14.3355 16.333L9.02864 12.4773L3.72174 16.333L5.74879 10.0943L0.441893 6.23864L7.00158 6.23864L9.02864 0Z" fill="#FF9F00"/>
-<path d="M27.086 0L29.1131 6.23864L35.6728 6.23864L30.3659 10.0943L32.3929 16.333L27.086 12.4773L21.7791 16.333L23.8062 10.0943L18.4993 6.23864L25.059 6.23864L27.086 0Z" fill="#FF9F00"/>
-<path d="M45.1431 0L47.1702 6.23864L53.7299 6.23864L48.423 10.0943L50.45 16.333L45.1431 12.4773L39.8362 16.333L41.8633 10.0943L36.5564 6.23864L43.1161 6.23864L45.1431 0Z" fill="#D9D9D9"/>
-<path d="M63.2005 0L65.2276 6.23864L71.7873 6.23864L66.4804 10.0943L68.5074 16.333L63.2005 12.4773L57.8936 16.333L59.9207 10.0943L54.6138 6.23864L61.1735 6.23864L63.2005 0Z" fill="#D9D9D9"/>
-<path d="M81.2576 0L83.2847 6.23864L89.8444 6.23864L84.5375 10.0943L86.5645 16.333L81.2576 12.4773L75.9507 16.333L77.9778 10.0943L72.6709 6.23864L79.2306 6.23864L81.2576 0Z" fill="#D9D9D9"/>
+                               <svg id="starRating" width="91" height="19" viewBox="0 0 91 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path class="star" data-index="1" d="M9.02864 0L11.0557 6.23864L17.6154 6.23864L12.3085 10.0943L14.3355 16.333L9.02864 12.4773L3.72174 16.333L5.74879 10.0943L0.441893 6.23864L7.00158 6.23864L9.02864 0Z" fill="#FF9F00"/>
+<path  class="star" data-index="2" d="M27.086 0L29.1131 6.23864L35.6728 6.23864L30.3659 10.0943L32.3929 16.333L27.086 12.4773L21.7791 16.333L23.8062 10.0943L18.4993 6.23864L25.059 6.23864L27.086 0Z" fill="#FF9F00"/>
+<path  class="star" data-index="3" d="M45.1431 0L47.1702 6.23864L53.7299 6.23864L48.423 10.0943L50.45 16.333L45.1431 12.4773L39.8362 16.333L41.8633 10.0943L36.5564 6.23864L43.1161 6.23864L45.1431 0Z" fill="#D9D9D9"/>
+<path  class="star" data-index="4" d="M63.2005 0L65.2276 6.23864L71.7873 6.23864L66.4804 10.0943L68.5074 16.333L63.2005 12.4773L57.8936 16.333L59.9207 10.0943L54.6138 6.23864L61.1735 6.23864L63.2005 0Z" fill="#D9D9D9"/>
+<path  class="star" data-index="5" d="M81.2576 0L83.2847 6.23864L89.8444 6.23864L84.5375 10.0943L86.5645 16.333L81.2576 12.4773L75.9507 16.333L77.9778 10.0943L72.6709 6.23864L79.2306 6.23864L81.2576 0Z" fill="#D9D9D9"/>
 </svg>
 
                             </div>
