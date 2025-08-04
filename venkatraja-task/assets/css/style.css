@@ -9,7 +9,7 @@
     margin: auto;    
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 0;
 }
 body {
     
@@ -27,7 +27,7 @@ font-family: "Roboto", sans-serif;
 }
 
 .dashboard__header {
-    padding: 24px 32px;
+    padding: 24px 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -217,17 +217,17 @@ font-family: "Roboto", sans-serif;
 .dashboard__main{
     display:flex;
     flex:1;
-    gap:10px;
+    gap:20px;
 }
 .dashboard__content {
     flex: 1;
-    padding:0px 32px;
+    padding-left : 32px;
     overflow-y: auto;
 }
 
 .feedback-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 24px;
     width: 100%;
 }
@@ -470,11 +470,10 @@ font-family: "Roboto", sans-serif;
     @media (max-width: 768px) {
         .container{
             width:100%;
-            margin:0px 20px;
         }
         .dashboard__header{
             display: block;
-          padding: 10px;
+                  padding: 10px 20px 30px 20px;
         }
         .header__summarize-btn{
             margin-top: 40px;
@@ -510,9 +509,11 @@ font-family: "Roboto", sans-serif;
     
 .feedback-grid {
     grid-template-columns: inherit;
+        max-width: calc(100% - 20px);
+        padding-left: 20px;
 }
 .dashboard__content{
-    padding: 0px 15px;
+    padding: 0px;
 }
     }
 
